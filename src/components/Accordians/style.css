@@ -1,22 +1,25 @@
 /* Wrapper */
 .wrapper {
-    max-width: 600px;
-    margin: 40px auto;
-    font-family: 'Segoe UI', sans-serif;
-    color: #000000;
-  }
-  
-  /* Button */
-  .wrapper button {
-    background-color: #748CAB;
-    color: #0D1321;
-    border: none;
-    padding: 10px 16px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    border-radius: 6px;
-    transition: background 0.3s ease;
-  }
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', sans-serif;
+  color: #000000;
+  text-align: center; /* ✅ Center the button */
+}
+
+/* Button */
+.wrapper button {
+  background-color: #748CAB;
+  color: #0D1321;
+  border: none;
+  padding: 10px 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+  display: inline-block; /* ✅ Ensures proper centering */
+}
+
   
   .wrapper button:hover {
     background-color: #3E5C76;
